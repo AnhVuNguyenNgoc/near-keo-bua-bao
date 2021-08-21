@@ -1,0 +1,19 @@
+{
+  "name": "near-keo-bua-bao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnhVuNguyenNgoc/near-keo-bua-bao.git"
+  },
+  "author": "itc-anh-vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnhVuNguyenNgoc/near-keo-bua-bao/issues"
+  },
+  "homepage": "https://github.com/AnhVuNguyenNgoc/near-keo-bua-bao#readme"
+}
