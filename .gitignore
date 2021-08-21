@@ -26,9 +26,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/contract/node_modules
-/contract/package-lock.json
-/contract/build
+/backend/node_modules
+/backend/package-lock.json
+/backend/build
 /package-lock.json
 /.cache
 /.gitattributes

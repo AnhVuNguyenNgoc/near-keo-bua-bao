@@ -12,8 +12,17 @@ export async function initContract() {
     viewMethods: [ 'getSentMsgNum', 'getSentMessages', 'getInboxMsgNum', 'getInboxMessages' ],
     changeMethods: ['sendMessage'],
   })
+  console.log("window: accountId", window.accountId)
+  console.log("window: contract", window.contract)
+  console.log("window: walletConnection", window.walletConnection)
 }
 
 export function login() {
   window.walletConnection.requestSignIn(nearConfig.contractName)
+}
+
+export function logout() {
+  window.walletConnection.signOut()
+  // reload page
+  window.location.replace(window.location.origin + window.location.pathname)
 }

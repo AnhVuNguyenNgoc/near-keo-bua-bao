@@ -5,7 +5,11 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "Start && env-cmd -f ./backend/near-dev/dev-account.env parcel serve src/index.html --open --port 1997"
+        "build:contract": "node backend/compile.js",
+        "deploy:contract:dev": "near dev-deploy",
+        "deploy:contract": "near deploy --accountId bowl1197.testnet",
+        "start": "Start && env-cmd -f ./backend/near-dev/dev-account.env parcel serve src/index.html --open --port 1997",
+        "all": "npm install"
     },
     "devDependencies": {
         "env-cmd": "~10.1.0",
