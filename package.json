@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "Start && parcel serve src/index.html --open --port 1997"
+        "start": "Start && env-cmd -f ./backend/near-dev/dev-account.env parcel serve src/index.html --open --port 1997"
     },
     "devDependencies": {
         "env-cmd": "~10.1.0",
